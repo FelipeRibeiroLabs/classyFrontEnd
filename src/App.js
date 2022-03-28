@@ -1,11 +1,13 @@
 import './Styles/App.css';
-import Student from './components/Student';
+import Crew from './components/model/Crew';
 import Footer from './components/footer/Footer'
+import Header from './components/header/Header'
 
 function App() {
   return (
     <div className="App">
-      <Student />
+      <Header />
+      <Crew />
       <Footer />
     </div>
   );
